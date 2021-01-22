@@ -1,7 +1,7 @@
 public void setup() 
 {
   String[] lines = {"beast","dough","happy","question","star","three","eagle","try"};
-  System.out.println("there are " + lines.length + " lines");
+  System.out.println("There are " + lines.length + " lines");
   for (int i = 0 ; i < lines.length; i++) 
   {
     System.out.println(pigLatin(lines[i]));
